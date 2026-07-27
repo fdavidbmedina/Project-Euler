@@ -5,7 +5,7 @@ import sys
 from urllib.parse import quote
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PROBLEMS_DIR = os.path.join(REPO_ROOT, "Python Code")   # <-- your folder name
+PROBLEMS_DIR = os.path.join(REPO_ROOT, "solutions")   # <-- your folder name
 README_PATH = os.path.join(REPO_ROOT, "README.md")
 
 TABLE_START = "<!-- PROBLEMS_TABLE_START -->"
@@ -13,7 +13,7 @@ TABLE_END = "<!-- PROBLEMS_TABLE_END -->"
 
 GITHUB_REPOSITORY = os.environ.get("GITHUB_REPOSITORY", "fdavidbmedina/Project-Euler")
 BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
-FOLDER_NAME = "Python Code"   # <-- used to build the github link path
+FOLDER_NAME = "solutions"   # <-- used to build the github link path
 
 def get_last_commit_date(filepath):
     try:
@@ -59,7 +59,7 @@ def build_rows():
 
         encoded_folder = quote(FOLDER_NAME)
         encoded_file = quote(entry)
-        github_link = f"https://github.com/{GITHUB_REPOSITORY}/blob/{BRANCH}/{encoded_folder}/{encoded_file}"
+        github_link = f"https://github.com/{GITHUB_REPOSITORY}/blob/{BRANCH}/{FOLDER_NAME}/{entry}"
 
         date = get_last_commit_date(filepath)
         rows.append((number, title, url, github_link, date))

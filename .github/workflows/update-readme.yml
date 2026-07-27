@@ -4,8 +4,9 @@ on:
   push:
     branches: [main]
     paths:
-      - "**.py"
+      - "solutions/**.py"
 
+      
 jobs:
   update-readme:
     runs-on: ubuntu-latest
