@@ -7,5 +7,5 @@ My code to try the [Project Euler Problem Archives](https://projecteuler.net/arc
 <!-- PROBLEMS_TABLE_START -->
 | # | Title | Solution | Date |
 |---|-------|----------|------|
-| 7 | [import math]() | [Python](https://github.com/fdavidbmedina/Project-Euler/blob/main/solutions/7.py) | 7/27/2026 |
+| 7 | [10 001st prime](https://projecteuler.net/problem=7) | [Python](https://github.com/fdavidbmedina/Project-Euler/blob/main/solutions/7.py) | 7/27/2026 |
 <!-- PROBLEMS_TABLE_END -->
