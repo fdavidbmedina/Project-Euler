@@ -19,3 +19,5 @@ def nth_prime(n):
     return primes[n-1]
 
 print(nth_prime(10001))
+
+#Test
