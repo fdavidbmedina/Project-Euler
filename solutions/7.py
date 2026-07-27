@@ -1,3 +1,5 @@
+# 10 001st prime
+# https://projecteuler.net/problem=7
 import math
 
 def nth_prime(n):
