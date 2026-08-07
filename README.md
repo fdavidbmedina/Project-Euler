@@ -11,4 +11,5 @@ My code to try the [Project Euler Problem Archives](https://projecteuler.net/arc
 | 8 | [Largest Product in a Series](https://projecteuler.net/problem=8) | [Python](https://github.com/fdavidbmedina/Project-Euler/blob/main/solutions/8.py) | 7/27/2026 |
 | 9 | [Special Pythagorean Triplet](https://projecteuler.net/problem=9) | [Python](https://github.com/fdavidbmedina/Project-Euler/blob/main/solutions/9.py) | 7/27/2026 |
 | 10 | [Summation of Primes](https://projecteuler.net/problem=10) | [Python](https://github.com/fdavidbmedina/Project-Euler/blob/main/solutions/10.py) | 8/3/2026 |
+| 11 | [Largest Product in a Grid](https://projecteuler.net/problem=11) | [Python](https://github.com/fdavidbmedina/Project-Euler/blob/main/solutions/11.py) | 8/6/2026 |
 <!-- PROBLEMS_TABLE_END -->
